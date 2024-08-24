@@ -6,6 +6,7 @@ export interface News {
     publishedAt: string;
 }
 
+
 export interface Comment {
     id: string;
     newsId: string;
