@@ -1,15 +1,11 @@
 export interface News {
-    id: string;
+    id: number;
     title: string;
     content: string;
-    image?: string;
-    publishedAt: string;
 }
 
-
 export interface Comment {
-    id: string;
-    newsId: string;
-    author: string;
+    id: number;
+    newsId: number;
     content: string;
 }

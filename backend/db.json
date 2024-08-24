@@ -1,5 +1,10 @@
 {
-  "news": [],
-  "comments": []
+  "news": [
+    { "id": 1, "title": "News Title 1", "content": "News Content 1" },
+    { "id": 2, "title": "News Title 2", "content": "News Content 2" }
+  ],
+  "comments": [
+    { "id": 1, "newsId": 1, "content": "Comment 1 on News 1" },
+    { "id": 2, "newsId": 1, "content": "Comment 2 on News 1" }
+  ]
 }
-
